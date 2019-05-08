@@ -1,0 +1,165 @@
+/*----------------------------------------
+Site Name:          Groopies Deal Site
+Description:        Percentage Layout
+Screen Size:        1024x768+
+Updated:            Dec-10, 2010
+Author:             Jothi Adaikalasamy
+----------------------------------------*/
+@charset "utf-8";
+/* CSS Document */
+
+.datepicker_image {
+	cursor:pointer;
+	background:url(../images/date_picker.png) right center no-repeat #fff;
+}
+.datepicker_image:hover {
+	cursor:pointer;
+	background:url(../images/date_picker.png) right center no-repeat #edf4eb;
+}
+.date_selector, .date_selector * {
+	width: auto;
+	height: auto;
+	border: none;
+	background: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	text-decoration: none;
+}
+.date_selector {
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 5px;
+	margin-top:5px;
+	position: absolute;
+	z-index: 100000;
+	display: none;
+}
+.date_selector table {
+	padding:0px !important;
+}
+.date_selector table tr th {
+	padding:0px !important;
+}
+.date_selector table tr td {
+	padding:0px !important;
+}
+.date_selector table {
+	width:100%;
+	border:1px solid #ccc;
+	border-bottom:none;
+	border-right:none;
+}
+.date_selector table tr td:hover {
+	background:#f4f4f4;
+}
+.date_selector table tr th {
+	text-shadow:1px 1px 0px #fff;
+	background:url(../images/table_heading_bg.jpg) bottom repeat-x #ccc;
+	font:bold 12px arial;
+	border:1px solid #ccc;
+	border-top:none;
+	border-left:none;
+}
+.date_selector table tr td {
+	background:#fff;
+	font:normal 12px arial;
+	border:1px solid #ccc;
+	border-top:none;
+	border-left:none;
+}
+.date_selector_ieframe {
+	position: absolute;
+	z-index: 99999;
+	display: none;
+}
+.date_selector .nav {
+	width: 17.5em; /* 7 * 2.5em */
+}
+.date_selector .month_nav, .date_selector .year_nav {
+	margin: 0 0 3px 0;
+	padding: 0;
+	display: block;
+	position: relative;
+	text-align: center;
+}
+.date_selector .month_nav {
+	float: left;
+	width: 55%;
+}
+.date_selector .year_nav {
+	float: right;
+	width: 35%;
+	margin-right: -8px; /* Compensates for cell borders */
+}
+.date_selector .month_name, .date_selector .year_name {
+	font-weight: bold;
+	line-height: 20px;
+	color:#000;
+}
+.date_selector .button_cal {
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 18px;
+	height: 18px;
+	line-height: 17px;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+	font-size: 120%;
+	overflow: hidden;
+	border: 1px solid #fff;
+}
+.date_selector .button_cal:hover, .date_selector .button_cal.hover {
+	background: none;
+	color: #000;
+	cursor: pointer;
+	border-color: #ccc;
+}
+.date_selector .prev {
+	left: 0;
+}
+.date_selector .next {
+	right: 0;
+}
+.date_selector table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	clear: both;
+}
+.date_selector th, .date_selector td {
+	width: 2.5em;
+	height: 2em;
+	padding: 0;
+	text-align: center;
+	color: black;
+}
+.date_selector td {
+	border: 1px solid #ccc;
+	line-height: 2em;
+	text-align: center;
+	white-space: nowrap;
+	color: #000;
+	background: white;
+	padding:2px;
+}
+.date_selector td.today {
+	background: #ccc;
+	color:#fff;
+}
+.date_selector td.unselected_month {
+	color: #ccc;
+}
+.date_selector td.selectable_day {
+	cursor: pointer;
+}
+.date_selector td.selected {
+	background:url("../images/menu_bg.jpg") repeat-x scroll left top #E7900A;
+	font-weight: bold;
+	text-shadow:1px 1px 0 #FFD38E;
+}
+.date_selector td.selectable_day:hover, .date_selector td.selectable_day.hover {
+	background: #000;
+	color: white;
+}

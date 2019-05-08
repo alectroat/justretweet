@@ -1,0 +1,30 @@
+﻿
+/* Scroller Box */
+
+.scroller_container_left_right {
+ border: 1px dotted #ddd;
+ position: relative;
+ overflow: hidden;
+ width: 300px;
+ height: 60px;
+}
+
+.scroller_left_right {
+ white-space: nowrap;
+ line-height: 60px;
+ font-size: 60px;
+}
+
+.scroller_left_right p {
+ padding: 0;
+}
+/* Scoller Box */
+
+/* CSS Hack Safari */
+#dummy {;# }
+
+.scroller_container_left_right {
+ overflow: auto;
+}
+
+/* Scoller Box */

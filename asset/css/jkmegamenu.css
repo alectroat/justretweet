@@ -1,0 +1,45 @@
+
+.floatLeft{ float:left; }
+.megamenu{
+position: absolute;
+display: none;
+left: 0;
+top: 0;
+background:#F0E3A7;
+padding: 10px 10px 5px 10px;
+font: normal 11px Verdana;
+z-index: 100;
+width:700px;
+}
+
+.megamenu .column{
+float: left;
+margin-right: 30px;
+}
+
+.megamenu .column ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+.megamenu .column ul li{
+line-height:15px;	
+}
+
+.megamenu .column h3{
+font: normal 11px Arial;
+margin: 0 0 5px 0;
+}
+
+.megamenu .column ul li a{
+text-decoration: none;
+width:85px;
+display:block;
+color:#5C5A4D;
+}
+
+.megamenu .column ul li a:hover{
+color: #FFFFFF;
+background:#5C5A4D;
+}

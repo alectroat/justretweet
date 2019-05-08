@@ -1,0 +1,99 @@
+.stickytooltip {
+    width: 360px;
+}
+
+.socialPopup {
+	width:353px
+}
+.socialPopup p{
+	font-weight:normal;
+	color:#000;
+	padding:5px 10px;
+	line-height:1.4em;
+	margin-bottom:3px
+}
+.socialPopup .followers {
+	line-height:1.0em;
+	margin-bottom:0
+}
+.socialPopup .lastTweet {
+	background-color:#e7fcff;
+	border-top:1px solid #035561;
+	padding:5px
+}
+.thumbouter {
+    display: inline-block;
+    padding: 3px 0;
+    position: relative;
+}
+.socialPopup .thumbouter {
+	float:left;
+	margin:0 10px 5px 0;
+	width:48px;
+	height:48px
+}
+.textOnly {
+	font-weight:normal;
+	color:#333;
+	line-height:1.4em;
+	font-size:1.1em;
+	margin:15px
+}
+.socialPopup h6 {
+	margin-left:10px;
+	font-size:1.3em
+}
+
+a.twitter {
+    background: url("../images/icons/twitter.png") no-repeat scroll 0 0 transparent;
+    padding: 3px 0 2px 20px;
+}
+
+.socialPopup a.twitter {
+	float:left;
+	margin-top:5px;
+	width:210px;
+	text-align:left
+}
+
+a.website {
+    background: url("../images/icons/web.png") no-repeat scroll 0 0 transparent;
+    padding: 3px 0 2px 20px;
+}
+
+.socialPopup a.website {
+    float: left;
+    margin-top: 5px;
+    text-align: left;
+    width: 210px;
+}
+
+.twiending li.tC img.thumb, .socialPopup img.thumb {
+	width:48px;
+	height:48px
+}
+.twiending li.tC img.thumbcensored, .socialPopup img.thumbcensored {
+	padding:3px 0;
+	position:absolute;
+	top:0;
+	left:0
+}
+.stickytooltip{
+box-shadow: 5px 5px 8px #818181; /*shadow for CSS3 capable browsers.*/
+-webkit-box-shadow: 5px 5px 8px #818181;
+-moz-box-shadow: 5px 5px 8px #818181;
+display:none;
+position:absolute;
+display:none;
+border:5px solid black; /*Border around tooltip*/
+background:white;
+z-index:3000;
+}
+
+.stickytooltip .stickystatus{ /*Style for footer bar within tooltip*/
+background:black;
+color:white;
+padding-top:5px;
+text-align:center;
+font:bold 11px Arial;
+}
